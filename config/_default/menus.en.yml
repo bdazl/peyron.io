@@ -1,7 +1,10 @@
 main:
-  - name: art
+  - name: Art
     pageRef: art
     weight: 10
+  - name: Notes
+    pageRef: notes
+    weight: 20
   - name: github
     url: https://github.com/bdazl/peyron.io
     weight: 100
