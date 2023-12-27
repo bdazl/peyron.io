@@ -1,6 +1,6 @@
 .PHONY: serve, update
 serve:
-	hugo server
+	hugo server -D
 
 update:
 	hugo mod get -u
