@@ -1,3 +1,6 @@
-.PHONY: serve
+.PHONY: serve, update
 serve:
-	bundle exec jekyll serve
+	hugo server
+
+update:
+	hugo mod get -u
