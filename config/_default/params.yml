@@ -1,0 +1,51 @@
+colorScheme: ocean
+defaultAppearance: dark
+autoSwitchAppearance: true
+enableSearch: false
+enableCodeCopy: false
+enableImageLazyLoading: true
+fingerprintAlgorithm: sha256
+header:
+  layout: basic
+  showTitle: true
+footer:
+  showCopyright: true
+  showThemeAttribution: true
+  showAppearanceSwitcher: false
+  showScrollToTop: true
+homepage:
+  layout: page
+  showRecent: false
+  recentLimit: 5
+article:
+  showDate: true
+  showDateUpdated: false
+  showAuthor: true
+  showBreadcrumbs: false
+  showDraftLabel: true
+  showEdit: false
+  editAppendPath: true
+  showHeadingAnchors: true
+  showPagination: true
+  invertPagination: false
+  showReadingTime: false
+  showTableOfContents: false
+  showTaxonomies: false
+  showWordCount: false
+  showComments: false
+list:
+  showBreadcrumbs: false
+  showSummary: false
+  showTableOfContents: false
+  showTaxonomies: false
+  groupByYear: true
+  paginationWidth: 1
+sitemap:
+  excludedKinds:
+    - taxonomy
+    - term
+taxonomy:
+  showTermCount: true
+fathomAnalytics: {}
+plausibleAnalytics: {}
+verification: {}

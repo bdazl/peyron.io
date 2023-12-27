@@ -1,0 +1,11 @@
+main:
+  - name: art
+    pageRef: art
+    weight: 10
+  - name: github
+    url: https://github.com/bdazl/peyron.io
+    weight: 100
+    params:
+      icon: github
+      showName: false
+      target: _blank

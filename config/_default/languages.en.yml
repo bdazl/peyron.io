@@ -1,0 +1,15 @@
+languageCode: en
+languageName: English
+languageDirection: ltr
+weight: 1
+title: peyron.io
+params:
+  dateFormat: 2 January 2006
+  description: Jacob's Page
+author:
+  links:
+    - email: mailto:jacob@peyron.io
+    - github: https://github.com/bdazl
+    - x-twitter: https://twitter.com/jacobpeyron
+  name: Jacob Peyron
+  image: img/me.jpg
