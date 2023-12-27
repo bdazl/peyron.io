@@ -14,7 +14,7 @@ footer:
   showAppearanceSwitcher: false
   showScrollToTop: true
 homepage:
-  layout: page
+  layout: profile
   showRecent: false
   recentLimit: 5
 article:
