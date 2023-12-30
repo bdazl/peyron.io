@@ -12,7 +12,7 @@ A gallery of my digital paintings :frame_with_picture:
 All of these images are created on an iPad with [Procreate](https://procreate.com/)
 and [Photomator](https://www.pixelmator.com/photomator/).
 
-{{< gallery hover-effect="none" >}}
+{{< gallery hover-effect="none" caption-effect="appear" >}}
     {{< figure link="/art/våga.jpg" caption="våga" >}}
     {{< figure link="/art/phearil.jpg" caption="phearil" >}}
     {{< figure link="/art/färg_i_datorn.jpg" caption="färg i datorn" >}}
