@@ -5,6 +5,13 @@ main:
   - name: Notes
     pageRef: notes
     weight: 20
+  - name: search
+    weight: 99
+    params:
+      action: search
+      icon: search
+      showName: false
+      target: _blank
   - name: github
     url: https://github.com/bdazl/peyron.io
     weight: 100

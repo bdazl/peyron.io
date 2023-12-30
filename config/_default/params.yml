@@ -1,7 +1,7 @@
 colorScheme: ocean
 defaultAppearance: dark
 autoSwitchAppearance: true
-enableSearch: false
+enableSearch: true
 enableCodeCopy: false
 enableImageLazyLoading: true
 fingerprintAlgorithm: sha256
