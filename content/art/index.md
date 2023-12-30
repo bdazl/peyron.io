@@ -1,5 +1,6 @@
 ---
 title: Art
+layout: simple
 categories:
   - Art
 tags:
@@ -25,7 +26,7 @@ and [Photomator](https://www.pixelmator.com/photomator/).
     {{< figure link="/art/vortex.jpg" caption="vortex" >}}
     {{< figure link="/art/to_be_removd.jpg" caption="to be removd" >}}
     {{< figure link="/art/stråle.jpg" caption="stråle" >}}
-    {{< figure link="/art/lessthan.jpg" caption="lessthan.jpg" >}}
+    {{< figure link="/art/lessthan.jpg" caption="lessthan" >}}
     {{< figure link="/art/villkor.jpg" caption="villkor" >}}
     {{< figure link="/art/slarva.jpg" caption="slarva" >}}
     {{< figure link="/art/namn1.jpg" caption="namn1" >}}
