@@ -9,36 +9,22 @@ Grid Layout Styles
 */
 .gallery {
     overflow: hidden;
-    margin: 10px;
+    margin: -35px;
     max-width: 768px;
 }
 .gallery .box {
     float: left;
     position: relative;
     /* Default: 1 tile wide */
-    width: 100%;
-    padding-bottom: 100%; 
+    width: 50%;
+    padding-bottom: 50%;
+    margin-bottom: -10%;
 }
-@media only screen and (min-width : 365px) {
-    /* Tablet view: 2 tiles */
+@media (max-width : 768px) {
     .gallery .box {
-        width: 50%;
-        padding-bottom: 50%;
+        width: 100%;
+        padding-bottom: 100%;
     }
-}
-@media only screen and (min-width : 480px) {
-    /* Small desktop / ipad view: 3 tiles */
-    .gallery .box {
-        width: 33.3%;
-        padding-bottom: 33.3%; /*  */
-    }
-}
-@media only screen and (min-width : 9999px) {
-   /* Medium desktop: 4 tiles */
-   .box {
-      width: 25%;
-      padding-bottom: 25%;
-   }
 }
 
 /*
@@ -90,7 +76,7 @@ img / a styles
     right: 0;
     top: 0;
     bottom: 0;
-    background-size: cover;
+    background-size: contain;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
