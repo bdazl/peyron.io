@@ -1,5 +1,10 @@
 ---
 title: Art
+categories:
+  - Art
+tags:
+  - Image
+  - Gallery
 ---
 
 A gallery of my digital paintings :frame_with_picture:
