@@ -9,15 +9,13 @@ Grid Layout Styles
 */
 .gallery {
     overflow: hidden;
-    margin: 10px;
-    max-width: 768px;
 }
 .gallery .box {
     float: left;
     position: relative;
     /* Default: 1 tile wide */
-    width: 50%;
-    padding-bottom: 50%;
+    width: 33.3%;
+    padding-bottom: 33.3%;
 }
 @media (max-width : 768px) {
     .gallery .box {
