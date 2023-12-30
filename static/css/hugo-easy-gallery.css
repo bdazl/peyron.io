@@ -9,7 +9,7 @@ Grid Layout Styles
 */
 .gallery {
     overflow: hidden;
-    margin: -35px;
+    margin: 10px;
     max-width: 768px;
 }
 .gallery .box {
@@ -18,7 +18,6 @@ Grid Layout Styles
     /* Default: 1 tile wide */
     width: 50%;
     padding-bottom: 50%;
-    margin-bottom: -10%;
 }
 @media (max-width : 768px) {
     .gallery .box {
