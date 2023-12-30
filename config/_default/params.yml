@@ -5,6 +5,8 @@ enableSearch: true
 enableCodeCopy: false
 enableImageLazyLoading: true
 fingerprintAlgorithm: sha256
+author:
+  name: Jacob Peyron
 header:
   layout: basic
   showTitle: true
