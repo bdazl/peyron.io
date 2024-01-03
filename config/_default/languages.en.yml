@@ -4,7 +4,7 @@ languageDirection: ltr
 weight: 1
 title: peyron.io
 params:
-  dateFormat: 2023-12-31
+  dateFormat: 2006-01-02
   description: Jacob's Portal
 author:
   links:
