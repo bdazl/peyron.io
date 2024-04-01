@@ -1,0 +1,18 @@
+{{- if not ($.Page.Scratch.Get "three") -}}
+{{- $.Page.Scratch.Set "three" 1 -}}
+{{- $version := (.Get "threejs" | default "v0.163.0") -}}
+{{- $script := (.Get "script") -}}
+<link rel="stylesheet" href={{ "css/three.css" | relURL }} />
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@{{ $version }}/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@{{ $version }}/examples/jsm/"
+    }
+  }
+</script>
+
+<div class="three-canvas"></div>
+<script type="module" src={{ $script | relURL }}></script>
+
+{{- end -}}
