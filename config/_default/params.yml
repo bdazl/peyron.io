@@ -19,6 +19,9 @@ homepage:
   layout: profile
   showRecent: false
   recentLimit: 5
+marketing:
+  analytics:
+    fathom: 'QIIMWAFF'
 article:
   showDate: true
   showDateUpdated: false
@@ -48,6 +51,3 @@ sitemap:
     - term
 taxonomy:
   showTermCount: true
-fathomAnalytics: {}
-plausibleAnalytics: {}
-verification: {}
