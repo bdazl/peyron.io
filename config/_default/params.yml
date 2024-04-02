@@ -48,4 +48,5 @@ sitemap:
     - term
 taxonomy:
   showTermCount: true
-fathomAnalytics: 'QIIMWAFF'
+fathomAnalytics:
+  site: 'QIIMWAFF'
