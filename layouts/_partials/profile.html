@@ -1,5 +1,4 @@
 {{ $align := .align | default "center" }}
-{{ $description := site.Language.Params.description | default "Creative explorations in code, visuals, and ideas." }}
 <section
   class="not-prose {{ if eq $align "start" }}
     items-start
@@ -28,10 +27,6 @@
       {{ with site.Language.Params.Author.headline }}
         <h2 class="mt-2 text-center text-xl text-neutral-700 dark:text-neutral-300">
           {{ . | markdownify | emojify }}
-        </h2>
-      {{ else }}
-        <h2 class="mt-2 text-center text-xl text-neutral-700 dark:text-neutral-300">
-          {{ $description | markdownify | emojify }}
         </h2>
       {{ end }}
       <div class="mt-6 flex w-full flex-wrap items-center justify-center gap-3">

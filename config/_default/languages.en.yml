@@ -5,7 +5,6 @@ weight: 1
 title: peyron.io
 params:
   dateFormat: 2006-01-02
-  description: Jacob's Portal
   author:
     name: Jacob Peyron
     image: img/me.jpg
