@@ -3,6 +3,5 @@ title: "Jacob Peyron"
 ---
 
 {{<lead>}}
-Welcome into the portal featuring me and my [creative](Art) endeavours.<br>
-Enjoy :sparkles::frame_with_picture:
+Welcome to my portal for visual experiments, code, and ongoing ideas.<br>
 {{</lead>}}
