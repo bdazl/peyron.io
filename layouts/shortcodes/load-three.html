@@ -1,6 +1,6 @@
 {{- if not ($.Page.Scratch.Get "three") -}}
 {{- $.Page.Scratch.Set "three" 1 -}}
-{{- $version := (.Get "threejs" | default "v0.163.0") -}}
+{{- $version := (.Get "threejs" | default "v0.183.0") -}}
 {{- $script := (.Get "script") -}}
 <link rel="stylesheet" href={{ "css/three.css" | relURL }} />
 <script type="importmap">
