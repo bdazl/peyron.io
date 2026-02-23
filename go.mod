@@ -1,5 +1,5 @@
 module github.com/bdazl/peyron.io
 
-go 1.20
+go 1.26
 
-require github.com/jpanther/congo/v2 v2.7.6 // indirect
+require github.com/jpanther/congo/v2 v2.13.0 // indirect
