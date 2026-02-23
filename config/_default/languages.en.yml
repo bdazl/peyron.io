@@ -6,14 +6,14 @@ title: peyron.io
 params:
   dateFormat: 2006-01-02
   description: Jacob's Portal
-author:
-  links:
-    - email: mailto:jacob@peyron.io
-    - github: https://github.com/bdazl
-    - telegram: https://t.me/HexHacks
-    - x-twitter: https://twitter.com/jacobpeyron
-    - instagram: https://www.instagram.com/jacobpeyron
-    - facebook: https://facebook.com/jacob.peyron
-    - linkedin: https://linkedin.com/in/jacobpeyron
-  name: Jacob Peyron
-  image: img/me.jpg
+  author:
+    name: Jacob Peyron
+    image: img/me.jpg
+    links:
+      - email: mailto:jacob@peyron.io
+      - github: https://github.com/bdazl
+      - telegram: https://t.me/HexHacks
+      - x-twitter: https://x.com/jacobpeyron
+      - instagram: https://www.instagram.com/jacobpeyron
+      - facebook: https://facebook.com/jacob.peyron
+      - linkedin: https://linkedin.com/in/jacobpeyron
