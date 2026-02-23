@@ -2,7 +2,7 @@ colorScheme: ocean
 defaultAppearance: dark
 autoSwitchAppearance: true
 enableSearch: true
-enableCodeCopy: false
+enableCodeCopy: true
 enableImageLazyLoading: true
 fingerprintAlgorithm: sha256
 header:
@@ -10,7 +10,7 @@ header:
   showTitle: true
 footer:
   showCopyright: true
-  showThemeAttribution: true
+  showThemeAttribution: false
   showAppearanceSwitcher: true
   showScrollToTop: true
 homepage:
