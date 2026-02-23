@@ -19,8 +19,8 @@ Grid Layout Styles
 }
 @media (max-width : 768px) {
     .gallery .box {
-        width: 100%;
-        padding-bottom: 100%;
+        width: 50%;
+        padding-bottom: 50%;
     }
 }
 
@@ -49,6 +49,10 @@ figure {
     right: 5px;
     top: 5px;
     bottom: 5px;
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid rgba(20, 20, 20, 0.08);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 .gallery.hover-effect-grow figure:hover {
     transform: scale(1.05);
@@ -69,10 +73,10 @@ img / a styles
 
 .gallery .img {
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    left: 8px;
+    right: 8px;
+    top: 8px;
+    bottom: 8px;
     background-size: contain;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -97,9 +101,9 @@ figcaption styles
 .gallery figcaption,
 .fancy-figure figcaption {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
     background: #000;
     color: #FFF;
     text-align: center;
@@ -107,6 +111,11 @@ figcaption styles
     background: rgba(0, 0, 0, 0.5);
     opacity: 1;
     cursor: pointer;
+}
+.dark .gallery figure {
+    background: rgba(32, 32, 36, 0.86);
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 .gallery.caption-position-none figcaption,
 .fancy-figure.caption-position-none figcaption  {
@@ -139,4 +148,3 @@ figcaption styles
 figcaption p {
     margin: auto; /* override style in theme */
 }
-
