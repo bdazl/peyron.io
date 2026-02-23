@@ -8,10 +8,10 @@ tags:
   - Gallery
 ---
 
-A gallery of my digital paintings :frame_with_picture:
-
-All of these images are created on an iPad with [Procreate](https://procreate.com/)
-and [Photomator](https://www.pixelmator.com/photomator/).
+This gallery is ordered by when each painting was made.<br>
+All works are abstract, colorful digital paintings created on iPad.<br>
+My process is similar to simulated annealing: a chaotic start that gradually converges toward what feels right. I work in many layers, blending and combining them in different ways as the piece develops.<br>
+When the painting is nearly done, I often do one final color pass across the whole image.
 
 {{< gallery hover-effect="none" caption-effect="appear" >}}
     {{< figure link="/art/våga.jpg" caption="våga" >}}
