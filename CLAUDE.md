@@ -22,7 +22,7 @@ Personal portfolio/website at peyron.io built with **Hugo** (extended version) u
 
 ## Architecture
 
-**Configuration** is split across `config/_default/` (not the root `hugo.yml` which only has baseURL):
+**Configuration** lives in `config/_default/`:
 - `config.yml` — Site settings, outputs, pagination
 - `params.yml` — Congo theme params (color scheme: ocean, dark mode default, Fathom analytics)
 - `languages.en.yml` — Author info and social links
