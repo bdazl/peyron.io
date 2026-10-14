@@ -1,0 +1,11 @@
+// Cloudflare Worker serving the Hugo build as static assets.
+// Built by Workers Builds: build command `hugo --gc`, deploy command `npx wrangler deploy`.
+{
+  "name": "peyron-io",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
