@@ -32,16 +32,17 @@ Personal portfolio/website at peyron.io built with **Hugo** (extended version) u
 
 **Content sections:**
 - `content/_index.md` — Homepage (uses Congo "profile" layout)
-- `content/art/` — Gallery using `{{< gallery >}}` and `{{< figure >}}` shortcodes
+- `content/art/` — Gallery using `{{< gallery >}}` and `{{< artwork >}}` shortcodes
 - `content/notes/` — Blog posts organized by year
 
 **Custom layouts:**
 - `layouts/_default/three.html` — Layout for ThreeJS/WebGL pages
-- `layouts/shortcodes/` — `gallery.html`, `figure.html` (from hugo-easy-gallery), `load-three.html`, `load-photoswipe.html`
+- `layouts/shortcodes/` — `gallery.html`, `artwork.html`, `load-photoswipe.html` (PhotoSwipe 5, ESM from CDN), `load-three.html`
+
+**Art images** live in `assets/art/` (originals). `artwork.html` generates WebP thumbnails and lightbox-sized images with Hugo image processing; nothing is served at the original size. Add a painting by dropping the file into `assets/art/` and adding `{{< artwork src="name.jpg" caption="name" >}}` to `content/art/index.md`.
 
 **Static assets** in `static/`:
 - `js/exhibit.js` — ThreeJS 3D cube demo
-- `js/load-photoswipe.js` — PhotoSwipe lightbox initialization (depends on jQuery)
 - `css/` — Styles for gallery and ThreeJS
 
 **Theme** is managed as a Hugo module (Go modules via `go.mod`), not as a git submodule. Run `make update` to update it.

@@ -1,0 +1,20 @@
+{{- /*
+  One painting in a {{< gallery >}}. Source images live in assets/art/ and are
+  resized here, so the originals are never published.
+  Usage: {{< artwork src="name.jpg" caption="name" >}}
+*/ -}}
+{{- $src := .Get "src" }}
+{{- $caption := .Get "caption" | default ($src | path.BaseName | humanize) }}
+{{- with resources.Get (printf "art/%s" $src) }}
+{{- $small := .Fit "400x400 webp q80" }}
+{{- $thumb := .Fit "800x800 webp q80" }}
+{{- $full := .Fit "2048x2048 webp q80" }}
+<figure>
+  <a href="{{ $full.RelPermalink }}" data-pswp-width="{{ $full.Width }}" data-pswp-height="{{ $full.Height }}">
+    <img src="{{ $thumb.RelPermalink }}" srcset="{{ $small.RelPermalink }} 400w, {{ $thumb.RelPermalink }} 800w" sizes="(max-width: 768px) 50vw, 330px" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $caption }}" loading="lazy" decoding="async" />
+  </a>
+  <figcaption>{{ $caption }}</figcaption>
+</figure>
+{{- else }}
+{{- errorf "artwork: assets/art/%s not found: %s" $src .Position }}
+{{- end }}
