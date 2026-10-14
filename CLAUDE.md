@@ -4,13 +4,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal portfolio/website at peyron.io built with **Hugo** (extended version) using the **Congo v2** theme via Hugo modules. Features an art gallery with PhotoSwipe lightbox and an experimental ThreeJS 3D exhibit page.
+Personal portfolio/website at peyron.io built with **Hugo** (extended version) using the **Congo v2** theme via Hugo modules. Features an art gallery with PhotoSwipe lightbox. ThreeJS layout/shortcode exist here; the 3D exhibit itself is paused on the `exhibit` branch.
 
 ## Build Commands
 
 - `make serve` — Dev server with drafts enabled (`hugo server -D`)
 - `make generate` — Build static site to `public/` (`hugo`)
 - `make update` — Update Hugo modules (`hugo mod get -u`)
+
+## Agent Notes Sync and Working Log
+
+- Mirror additions between `CLAUDE.md` and `AGENTS.md` when instructions are added here.
+- Keep a small ongoing private work log in `.log/<YYYY-MM-DD>_<context-title>.md`.
+- Files in `.log/` are local working notes and must not be committed.
+- Never create commits unless the user explicitly asks for a commit.
+- Interpret "atomära commits" from the current working tree state: split the final state into logical commits, not the intermediate experimentation history.
 
 ## Architecture
 
@@ -26,7 +34,6 @@ Personal portfolio/website at peyron.io built with **Hugo** (extended version) u
 - `content/_index.md` — Homepage (uses Congo "profile" layout)
 - `content/art/` — Gallery using `{{< gallery >}}` and `{{< figure >}}` shortcodes
 - `content/notes/` — Blog posts organized by year
-- `content/debug/exhibit/` — Draft ThreeJS 3D page using custom `three` layout
 
 **Custom layouts:**
 - `layouts/_default/three.html` — Layout for ThreeJS/WebGL pages

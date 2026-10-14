@@ -1,3 +1,5 @@
 public/
 resources/
 .claude/settings.local.json
+.log/
+_vendor/
